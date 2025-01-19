@@ -1,0 +1,91 @@
+import {Staff} from "../model/Staff.ts";
+
+const staffData: Staff[] = [
+    new Staff(
+        "John",
+        "Doe",
+        "Software Engineer",
+        "Male",
+        new Date("2022-01-15").toISOString(),
+        new Date("1990-06-25").toISOString(),
+        "123 Main St",
+        "Suite 100",
+        "Springfield",
+        "IL",
+        "USA",
+        "62701",
+        "555-123-4567",
+        "john.doe@example.com",
+        "Administrative"
+    ),
+    new Staff(
+        "Jane",
+        "Smith",
+        "Project Manager",
+        "Female",
+        new Date("2020-03-01").toISOString(),
+        new Date("1985-10-10").toISOString(),
+        "456 Elm St",
+        "Apt 20B",
+        "Los Angeles",
+        "CA",
+        "USA",
+        "90001",
+        "555-987-6543",
+        "jane.smith@example.com",
+        "Manager"
+    ),
+    new Staff(
+        "Alice",
+        "Johnson",
+        "HR Specialist",
+        "Female",
+        new Date("2018-07-10").toISOString(),
+        new Date("1988-03-12").toISOString(),
+        "789 Oak St",
+        "",
+        "San Francisco",
+        "CA",
+        "USA",
+        "94102",
+        "555-567-1234",
+        "alice.johnson@example.com",
+        "Human Resources"
+    ),
+    new Staff(
+        "Robert",
+        "Brown",
+        "Marketing Executive",
+        "Male",
+        new Date("2019-09-20").toISOString(),
+        new Date("1992-05-18").toISOString(),
+        "321 Maple Ave",
+        "Floor 3",
+        "Chicago",
+        "IL",
+        "USA",
+        "60601",
+        "555-765-4321",
+        "robert.brown@example.com",
+        "Marketing"
+    ),
+    new Staff(
+        "Emily",
+        "Davis",
+        "Financial Analyst",
+        "Female",
+        new Date("2021-11-15").toISOString(),
+        new Date("1994-07-07").toISOString(),
+        "654 Pine St",
+        "Suite 202",
+        "Boston",
+        "MA",
+        "USA",
+        "02108",
+        "555-234-6789",
+        "emily.davis@example.com",
+        "Finance"
+    )
+];
+
+export default staffData;
